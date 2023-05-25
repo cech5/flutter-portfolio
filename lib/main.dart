@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'SecularOne'),
       //home: const MyHomePage(title: 'My portfolio'),
       routes: AppRoutes.routes(),
-      initialRoute: 'home',
+      initialRoute: '/home',
     );
   }
 }
