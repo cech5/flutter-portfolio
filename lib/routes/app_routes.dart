@@ -4,6 +4,6 @@ import 'package:portfolio/screens/home/home.dart';
 class AppRoutes {
   static Map<String, Widget Function(BuildContext)> routes() =>
       <String, WidgetBuilder>{
-        'home': (context) => const HomeScreen(),
+        '/home': (context) => const HomeScreen(),
       };
 }
